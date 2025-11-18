@@ -35,7 +35,7 @@ async function generateIconMaps() {
           .replace(/^./, (match) => match.toUpperCase()); // Ensure first char is uppercase
 
         // Add entry to JavaScript map
-        jsMapContent += `  "${iconName}": './assets/${file}',\n`;
+        jsMapContent += `  "${iconName}": () => import('./assets/${file}'),\n`;
 
         // Add entry to Dart map
         dartMapContent += `    '${iconName}': '${flutterAssetsDir}/${file}',\n`;
