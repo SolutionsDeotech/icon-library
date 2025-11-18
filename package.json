@@ -1,0 +1,41 @@
+{
+  "name": "@deotech-solutions/icon-library",
+  "version": "0.1.2",
+  "description": "A collection of custom icons for Workleisure Restaurant applications.",
+  "main": "dist/workleisure-icon-library.umd.js",
+  "module": "dist/workleisure-icon-library.es.js",
+  "scripts": {
+    "test": "jest",
+    "build": "vite build",
+    "postbuild": "cp -r src/assets dist/assets",
+    "generate:icons": "npm run copy:flutter-assets && node generateIconMap.js",
+    "copy:flutter-assets": "cp src/assets/* flutter_lib/assets/icons/",
+    "optimize-webp": "node optimizeWebp.js"
+  },
+  "keywords": [
+    "react",
+    "icons",
+    "workleisure",
+    "restaurant",
+    "ui",
+    "components"
+  ],
+  "author": "Deotech Solutions",
+  "license": "MIT",
+  "type": "commonjs",
+  "files": [
+    "dist",
+    "src/assets",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "babel-jest": "^30.2.0",
+    "glob": "^10.4.5",
+    "jest": "^30.2.0",
+    "sharp": "^0.34.5",
+    "vite": "^7.2.2"
+  }
+}

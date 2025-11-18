@@ -1,0 +1,11 @@
+name: deotech_icon_library
+description: A collection of custom icons for Workleisure Restaurant applications, provided by Deotech Solutions.
+version: 0.1.0
+publish_to: 'none' # This prevents accidental publishing to pub.dev
+
+environment:
+  sdk: '>=2.12.0 <3.0.0' # Adjust SDK version as needed
+
+flutter:
+  assets:
+    - assets/icons/
