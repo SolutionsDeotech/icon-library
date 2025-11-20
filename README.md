@@ -12,7 +12,6 @@ The `@deotech-solutions/icon-library` is a comprehensive, framework-agnostic sol
     *   **JavaScript/Web Environments**: An `iconMap.js` file containing icon names mapped to their relative asset paths, suitable for use in React, Vue, Angular, or plain JavaScript applications.
     *   **Flutter Environments**: A `icon_map.dart` file and bundled assets, allowing seamless integration into Flutter mobile applications.
 *   **Framework-Agnostic Design**: While examples are provided for React and Flutter, the core library provides raw asset paths, allowing developers to integrate icons into any framework or environment using their preferred asset loading mechanisms.
-*   **Font Awesome Integration**: (Assuming Font Awesome is the source, based on `workleisure_restaurant_FE/.gemini/GEMINI.md`) The library is designed to complement or extend existing icon sets, potentially integrating with or providing custom versions of icons, such as those from Font Awesome.
 
 This automated approach ensures that once an icon is added to the `src/assets` folder, it becomes available across all consuming applications with minimal manual intervention.
 
