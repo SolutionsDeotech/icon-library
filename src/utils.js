@@ -1,16 +1,23 @@
 import { iconMap } from './iconMap';
+console.log('iconMap loaded in utils.js:', iconMap);
 
-export async function getIconUrl(iconName) {
-  const importFunction = iconMap[iconName];
-  if (!importFunction) {
-    console.warn(`Icon "${iconName}" not found in iconMap or is not a valid import function.`);
+const iconCache = {}; // Cache for storing resolved icon URLs
+
+export function getIconUrl(iconName) {
+  // Check if the icon URL is already in the cache
+  if (iconCache[iconName]) {
+    console.log(`Icon "${iconName}" found in cache.`);
+    return iconCache[iconName];
+  }
+
+  const imageUrl = iconMap[iconName];
+  if (!imageUrl) {
+    console.warn(`Icon "${iconName}" not found in iconMap. Returning null.`);
     return null;
   }
-  try {
-    const module = await importFunction();
-    return module.default;
-  } catch (error) {
-    console.error(`Error importing icon "${iconName}":`, error);
-    return null;
-  }
+
+  // Store the resolved URL in the cache before returning
+  iconCache[iconName] = imageUrl;
+  console.log(`Icon "${iconName}" resolved to "${imageUrl}" and cached.`);
+  return imageUrl;
 }

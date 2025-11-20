@@ -1,6 +1,6 @@
 {
   "name": "@deotech-solutions/icon-library",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "description": "A collection of custom icons for Workleisure Restaurant applications.",
   "main": "dist/workleisure-icon-library.umd.js",
   "module": "dist/workleisure-icon-library.es.js",
@@ -25,7 +25,6 @@
   "type": "commonjs",
   "files": [
     "dist",
-    "src",
     "README.md",
     "LICENSE"
   ],
