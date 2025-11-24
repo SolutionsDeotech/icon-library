@@ -23,7 +23,7 @@ class IconMap {
     'BusinessServices': 'assets/icons/BusinessServices.webp',
     'Cafe': 'assets/icons/Cafe.webp',
     'CalenderIcon': 'assets/icons/Calender Icon.webp',
-    'Camera': 'assets/icons/Camera.webp',
+    'CameraWhite': 'assets/icons/Camera-white.webp',
     'ChargingPlug': 'assets/icons/ChargingPlug.webp',
     'CheckCircle': 'assets/icons/Check Circle.webp',
     'Checkmark': 'assets/icons/Checkmark.webp',

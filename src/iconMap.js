@@ -20,7 +20,7 @@ import BusinessNetworkingAsset from './assets/BusinessNetworking.webp';
 import BusinessServicesAsset from './assets/BusinessServices.webp';
 import CafeAsset from './assets/Cafe.webp';
 import CalenderIconAsset from './assets/Calender Icon.webp';
-import CameraAsset from './assets/Camera.webp';
+import CameraWhiteAsset from './assets/Camera-white.webp';
 import ChargingPlugAsset from './assets/ChargingPlug.webp';
 import CheckCircleAsset from './assets/Check Circle.webp';
 import CheckmarkAsset from './assets/Checkmark.webp';
@@ -222,7 +222,7 @@ export const iconMap = {
   "BusinessServices": BusinessServicesAsset,
   "Cafe": CafeAsset,
   "CalenderIcon": CalenderIconAsset,
-  "Camera": CameraAsset,
+  "CameraWhite": CameraWhiteAsset,
   "ChargingPlug": ChargingPlugAsset,
   "CheckCircle": CheckCircleAsset,
   "Checkmark": CheckmarkAsset,
