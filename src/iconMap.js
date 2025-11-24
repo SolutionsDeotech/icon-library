@@ -31,8 +31,6 @@ import CheckCircleWhiteAsset from './assets/Check Circle-white.png';
 import CheckCircleAsset from './assets/Check Circle.webp';
 import CheckmarkAsset from './assets/Checkmark.webp';
 import CheckmarkWhiteAsset from './assets/CheckmarkWhite.webp';
-import ChevronCircleRight2Asset from './assets/Chevron Circle Right (2).png';
-import ChevronCircleRight22Asset from './assets/Chevron Circle Right (2).webp';
 import ChevronCircleRightWhiteAsset from './assets/Chevron Circle Right-white.png';
 import ChevronCircleRightAsset from './assets/Chevron Circle Right.webp';
 import CirclePlusWhiteAsset from './assets/Circle-plus-white.png';
@@ -66,8 +64,8 @@ import DownArrowAsset from './assets/Down Arrow.webp';
 import DownloadAsset from './assets/Download.webp';
 import DrinksAsset from './assets/Drinks.webp';
 import EditAsset from './assets/Edit.webp';
+import EmailWhiteAsset from './assets/Email-white.webp';
 import EmailAsset from './assets/Email.webp';
-import Email1Asset from './assets/Email1.webp';
 import EmployeeManagementAsset from './assets/EmployeeManagement.webp';
 import EntitiesAsset from './assets/Entities.webp';
 import EntityOwnerAsset from './assets/EntityOwner.webp';
@@ -126,8 +124,8 @@ import MineralWaterBottleAsset from './assets/MineralWaterBottle.webp';
 import MinusAsset from './assets/Minus.webp';
 import MobileAsset from './assets/Mobile.webp';
 import MoreOptionsAsset from './assets/More Options.webp';
+import MousePointerWhiteAsset from './assets/Mouse Pointer-white.webp';
 import MousePointerAsset from './assets/Mouse Pointer.webp';
-import MousePointer2Asset from './assets/Mouse Pointer2.webp';
 import MyBookingsAsset from './assets/MyBookings.webp';
 import MyCreditsAsset from './assets/MyCredits.webp';
 import MyCreditsWhiteAsset from './assets/MyCreditsWhite.webp';
@@ -138,8 +136,8 @@ import NetworkingOpportunitiesAsset from './assets/NetworkingOpportunities.webp'
 import NotificationAsset from './assets/Notification.webp';
 import OrganisationStartupAsset from './assets/OrganisationStartup.webp';
 import OrganizationAsset from './assets/Organization.webp';
+import OurVisionWhiteAsset from './assets/Our Vision-white.webp';
 import OurVisionAsset from './assets/Our Vision.webp';
-import OurVision1Asset from './assets/Our Vision1.webp';
 import OurMissionAsset from './assets/OurMission.webp';
 import OurStoryAsset from './assets/OurStory.webp';
 import OutdoorSpaceAsset from './assets/Outdoor Space.webp';
@@ -149,8 +147,8 @@ import PasswordLineAsset from './assets/Password Line.webp';
 import PetFriendlyAsset from './assets/Pet Friendly.webp';
 import PetFriendly2Asset from './assets/PetFriendly.webp';
 import PhoneAsset from './assets/Phone.webp';
+import PhoneNumberWhiteAsset from './assets/PhoneNumber-white.webp';
 import PhoneNumberAsset from './assets/PhoneNumber.webp';
-import PhoneNumber1Asset from './assets/PhoneNumber1.webp';
 import PlansAsset from './assets/Plans.webp';
 import PlusThemeColourAsset from './assets/Plus Theme Colour.png';
 import PlusThemeColour2Asset from './assets/Plus Theme Colour.webp';
@@ -161,15 +159,13 @@ import PlusWhite3Asset from './assets/PlusWhite.webp';
 import PoolTableAsset from './assets/PoolTable.webp';
 import PrimeLocationsAsset from './assets/PrimeLocations.webp';
 import PrinterAsset from './assets/Printer.webp';
+import ProfileWhiteAsset from './assets/Profile-white.webp';
 import ProfileAsset from './assets/Profile.webp';
-import Profile2Asset from './assets/Profile2.webp';
 import ProfileUploadAsset from './assets/ProfileUpload.webp';
-import Profilev2Asset from './assets/Profilev2.webp';
 import QuestionMarkAsset from './assets/Question Mark.webp';
-import Quote2Asset from './assets/Quote (2).webp';
 import QuoteAsset from './assets/Quote.webp';
+import ReferralsWhiteAsset from './assets/Referrals-white.webp';
 import ReferralsAsset from './assets/Referrals.webp';
-import Referrals2Asset from './assets/Referrals2.webp';
 import RefreshIconAsset from './assets/Refresh Icon.webp';
 import RejectedReservationAsset from './assets/RejectedReservation.webp';
 import RestaurantAsset from './assets/Restaurant.webp';
@@ -212,6 +208,7 @@ import TotalVisitorsTodayAsset from './assets/TotalVisitorsToday.webp';
 import UpArrowAsset from './assets/Up Arrow.webp';
 import UpcomingBookingAsset from './assets/UpcomingBooking.webp';
 import UploadAsset from './assets/Upload.webp';
+import UserConGreenAsset from './assets/user-con-green.webp';
 import UserAsset from './assets/User.webp';
 import UserGroupAsset from './assets/UserGroup.webp';
 import UsersThemeColourAsset from './assets/Users Theme Colour.png';
@@ -263,8 +260,6 @@ export const iconMap = {
   "CheckCircle": CheckCircleAsset,
   "Checkmark": CheckmarkAsset,
   "CheckmarkWhite": CheckmarkWhiteAsset,
-  "ChevronCircleRight2": ChevronCircleRight2Asset,
-  "ChevronCircleRight2_2": ChevronCircleRight22Asset,
   "ChevronCircleRightWhite": ChevronCircleRightWhiteAsset,
   "ChevronCircleRight": ChevronCircleRightAsset,
   "CirclePlusWhite": CirclePlusWhiteAsset,
@@ -298,8 +293,8 @@ export const iconMap = {
   "Download": DownloadAsset,
   "Drinks": DrinksAsset,
   "Edit": EditAsset,
+  "EmailWhite": EmailWhiteAsset,
   "Email": EmailAsset,
-  "Email1": Email1Asset,
   "EmployeeManagement": EmployeeManagementAsset,
   "Entities": EntitiesAsset,
   "EntityOwner": EntityOwnerAsset,
@@ -358,8 +353,8 @@ export const iconMap = {
   "Minus": MinusAsset,
   "Mobile": MobileAsset,
   "MoreOptions": MoreOptionsAsset,
+  "MousePointerWhite": MousePointerWhiteAsset,
   "MousePointer": MousePointerAsset,
-  "MousePointer2": MousePointer2Asset,
   "MyBookings": MyBookingsAsset,
   "MyCredits": MyCreditsAsset,
   "MyCreditsWhite": MyCreditsWhiteAsset,
@@ -370,8 +365,8 @@ export const iconMap = {
   "Notification": NotificationAsset,
   "OrganisationStartup": OrganisationStartupAsset,
   "Organization": OrganizationAsset,
+  "OurVisionWhite": OurVisionWhiteAsset,
   "OurVision": OurVisionAsset,
-  "OurVision1": OurVision1Asset,
   "OurMission": OurMissionAsset,
   "OurStory": OurStoryAsset,
   "OutdoorSpace": OutdoorSpaceAsset,
@@ -381,8 +376,8 @@ export const iconMap = {
   "PetFriendly": PetFriendlyAsset,
   "PetFriendly_2": PetFriendly2Asset,
   "Phone": PhoneAsset,
+  "PhoneNumberWhite": PhoneNumberWhiteAsset,
   "PhoneNumber": PhoneNumberAsset,
-  "PhoneNumber1": PhoneNumber1Asset,
   "Plans": PlansAsset,
   "PlusThemeColour": PlusThemeColourAsset,
   "PlusThemeColour_2": PlusThemeColour2Asset,
@@ -393,15 +388,13 @@ export const iconMap = {
   "PoolTable": PoolTableAsset,
   "PrimeLocations": PrimeLocationsAsset,
   "Printer": PrinterAsset,
+  "ProfileWhite": ProfileWhiteAsset,
   "Profile": ProfileAsset,
-  "Profile2": Profile2Asset,
   "ProfileUpload": ProfileUploadAsset,
-  "Profilev2": Profilev2Asset,
   "QuestionMark": QuestionMarkAsset,
-  "Quote2": Quote2Asset,
   "Quote": QuoteAsset,
+  "ReferralsWhite": ReferralsWhiteAsset,
   "Referrals": ReferralsAsset,
-  "Referrals2": Referrals2Asset,
   "RefreshIcon": RefreshIconAsset,
   "RejectedReservation": RejectedReservationAsset,
   "Restaurant": RestaurantAsset,
@@ -444,6 +437,7 @@ export const iconMap = {
   "UpArrow": UpArrowAsset,
   "UpcomingBooking": UpcomingBookingAsset,
   "Upload": UploadAsset,
+  "UserConGreen": UserConGreenAsset,
   "User": UserAsset,
   "UserGroup": UserGroupAsset,
   "UsersThemeColour": UsersThemeColourAsset,
