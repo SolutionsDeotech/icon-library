@@ -19,11 +19,13 @@ import CalenderIconAsset from './assets/Calender Icon.webp';
 import CameraAsset from './assets/Camera.webp';
 import ChargingPlugAsset from './assets/ChargingPlug.webp';
 import CheckmarkAsset from './assets/Checkmark.webp';
+import CheckmarkWhiteAsset from './assets/CheckmarkWhite.webp';
 import ClockAsset from './assets/Clock.webp';
 import CloseAsset from './assets/Close.webp';
 import ClubAsset from './assets/Club.webp';
 import CoffeeAsset from './assets/Coffee.webp';
 import CoinsAsset from './assets/Coins.webp';
+import CoinsWhiteAsset from './assets/CoinsWhite.webp';
 import CollabrativeTablesAsset from './assets/Collabrative Tables.webp';
 import CommentAsset from './assets/Comment.webp';
 import ComplimentaryRefreshmentsAsset from './assets/ComplimentaryRefreshments.webp';
@@ -41,6 +43,7 @@ import DownloadAsset from './assets/Download.webp';
 import DrinksAsset from './assets/Drinks.webp';
 import EditAsset from './assets/Edit.webp';
 import EmailAsset from './assets/Email.webp';
+import Email1Asset from './assets/Email1.webp';
 import EmployeeManagementAsset from './assets/EmployeeManagement.webp';
 import EntitiesAsset from './assets/Entities.webp';
 import EntityOwnerAsset from './assets/EntityOwner.webp';
@@ -67,6 +70,7 @@ import JoinUsAsset from './assets/JoinUs.webp';
 import LateNightHoursAsset from './assets/LateNightHours.webp';
 import LayerGroupAsset from './assets/Layer Group.webp';
 import LeftArrowAsset from './assets/Left Arrow.webp';
+import LeftArrowWhiteAsset from './assets/LeftArrowWhite.webp';
 import LeisureIntegrationAsset from './assets/LeisureIntegration.webp';
 import LightningIconAsset from './assets/Lightning Icon.webp';
 import LinkedinAsset from './assets/Linkedin.webp';
@@ -85,8 +89,10 @@ import MinusAsset from './assets/Minus.webp';
 import MobileAsset from './assets/Mobile.webp';
 import MoreOptionsAsset from './assets/More Options.webp';
 import MousePointerAsset from './assets/Mouse Pointer.webp';
+import MousePointer2Asset from './assets/Mouse Pointer2.webp';
 import MyBookingsAsset from './assets/MyBookings.webp';
 import MyCreditsAsset from './assets/MyCredits.webp';
+import MyCreditsWhiteAsset from './assets/MyCreditsWhite.webp';
 import MyOrganizationAsset from './assets/MyOrganization.webp';
 import MySubscriptionAsset from './assets/MySubscription.webp';
 import NatureFriendlyAsset from './assets/Nature Friendly.webp';
@@ -106,8 +112,10 @@ import PetFriendlyAsset from './assets/Pet Friendly.webp';
 import PetFriendly2Asset from './assets/PetFriendly.webp';
 import PhoneAsset from './assets/Phone.webp';
 import PhoneNumberAsset from './assets/PhoneNumber.webp';
+import PhoneNumber1Asset from './assets/PhoneNumber1.webp';
 import PlansAsset from './assets/Plans.webp';
 import PlusAsset from './assets/Plus.webp';
+import PlusWhiteAsset from './assets/PlusWhite.webp';
 import PoolTableAsset from './assets/PoolTable.webp';
 import PrimeLocationsAsset from './assets/PrimeLocations.webp';
 import PrinterAsset from './assets/Printer.webp';
@@ -127,6 +135,7 @@ import RestroomAsset from './assets/Restroom.webp';
 import RevenueEnhancementAsset from './assets/RevenueEnhancement.webp';
 import RewindAsset from './assets/Rewind.webp';
 import RightArrowAsset from './assets/Right Arrow.webp';
+import RightArrowWhiteAsset from './assets/RightArrowWhite.webp';
 import RupeeAsset from './assets/Rupee.webp';
 import SaveAsset from './assets/Save.webp';
 import SearchAsset from './assets/Search.webp';
@@ -196,11 +205,13 @@ export const iconMap = {
   "Camera": CameraAsset,
   "ChargingPlug": ChargingPlugAsset,
   "Checkmark": CheckmarkAsset,
+  "CheckmarkWhite": CheckmarkWhiteAsset,
   "Clock": ClockAsset,
   "Close": CloseAsset,
   "Club": ClubAsset,
   "Coffee": CoffeeAsset,
   "Coins": CoinsAsset,
+  "CoinsWhite": CoinsWhiteAsset,
   "CollabrativeTables": CollabrativeTablesAsset,
   "Comment": CommentAsset,
   "ComplimentaryRefreshments": ComplimentaryRefreshmentsAsset,
@@ -218,6 +229,7 @@ export const iconMap = {
   "Drinks": DrinksAsset,
   "Edit": EditAsset,
   "Email": EmailAsset,
+  "Email1": Email1Asset,
   "EmployeeManagement": EmployeeManagementAsset,
   "Entities": EntitiesAsset,
   "EntityOwner": EntityOwnerAsset,
@@ -244,6 +256,7 @@ export const iconMap = {
   "LateNightHours": LateNightHoursAsset,
   "LayerGroup": LayerGroupAsset,
   "LeftArrow": LeftArrowAsset,
+  "LeftArrowWhite": LeftArrowWhiteAsset,
   "LeisureIntegration": LeisureIntegrationAsset,
   "LightningIcon": LightningIconAsset,
   "Linkedin": LinkedinAsset,
@@ -262,8 +275,10 @@ export const iconMap = {
   "Mobile": MobileAsset,
   "MoreOptions": MoreOptionsAsset,
   "MousePointer": MousePointerAsset,
+  "MousePointer2": MousePointer2Asset,
   "MyBookings": MyBookingsAsset,
   "MyCredits": MyCreditsAsset,
+  "MyCreditsWhite": MyCreditsWhiteAsset,
   "MyOrganization": MyOrganizationAsset,
   "MySubscription": MySubscriptionAsset,
   "NatureFriendly": NatureFriendlyAsset,
@@ -283,8 +298,10 @@ export const iconMap = {
   "PetFriendly_2": PetFriendly2Asset,
   "Phone": PhoneAsset,
   "PhoneNumber": PhoneNumberAsset,
+  "PhoneNumber1": PhoneNumber1Asset,
   "Plans": PlansAsset,
   "Plus": PlusAsset,
+  "PlusWhite": PlusWhiteAsset,
   "PoolTable": PoolTableAsset,
   "PrimeLocations": PrimeLocationsAsset,
   "Printer": PrinterAsset,
@@ -304,6 +321,7 @@ export const iconMap = {
   "RevenueEnhancement": RevenueEnhancementAsset,
   "Rewind": RewindAsset,
   "RightArrow": RightArrowAsset,
+  "RightArrowWhite": RightArrowWhiteAsset,
   "Rupee": RupeeAsset,
   "Save": SaveAsset,
   "Search": SearchAsset,
