@@ -7,8 +7,7 @@
   "scripts": {
     "test": "jest",
     "build": "vite build",
-    "generate:icons": "npm run copy:flutter-assets && node generateIconMap.js",
-    "copy:flutter-assets": "cp src/assets/* flutter_lib/assets/icons/",
+    "generate:icons": "node generateIconMap.js",
     "optimize-webp": "node optimizeWebp.js"
   },
   "keywords": [

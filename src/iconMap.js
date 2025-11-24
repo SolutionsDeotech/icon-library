@@ -6,8 +6,16 @@ import AddressBookAsset from './assets/Address Book.webp';
 import AirConditioningAsset from './assets/AirConditioning.webp';
 import AmenitiesAsset from './assets/Amenities.webp';
 import ApprovedBookingAsset from './assets/ApprovedBooking.webp';
+import ArrrowLeftWhiteAsset from './assets/Arrrow left - white.png';
+import ArrrowLeftWhite2Asset from './assets/Arrrow left - white.webp';
+import ArrrowRightWhiteAsset from './assets/Arrrow Right- white.png';
+import ArrrowRightWhite2Asset from './assets/Arrrow Right- white.webp';
 import AuditAsset from './assets/Audit.webp';
+import BackwardAsset from './assets/Backward.png';
+import Backward2Asset from './assets/Backward.webp';
 import BarAsset from './assets/Bar.webp';
+import BellGreyAsset from './assets/Bell Grey.png';
+import BellGrey2Asset from './assets/Bell Grey.webp';
 import BookingCancelledAsset from './assets/BookingCancelled.webp';
 import BookingCompletedAsset from './assets/BookingCompleted.webp';
 import BookingsAsset from './assets/Bookings.webp';
@@ -16,22 +24,38 @@ import BusinessNetworkingAsset from './assets/BusinessNetworking.webp';
 import BusinessServicesAsset from './assets/BusinessServices.webp';
 import CafeAsset from './assets/Cafe.webp';
 import CalenderIconAsset from './assets/Calender Icon.webp';
-import CameraAsset from './assets/Camera.webp';
+import CameraAsset from './assets/Camera.png';
+import Camera2Asset from './assets/Camera.webp';
 import ChargingPlugAsset from './assets/ChargingPlug.webp';
+import CheckCircleWhiteAsset from './assets/Check Circle-white.png';
+import CheckCircleAsset from './assets/Check Circle.webp';
 import CheckmarkAsset from './assets/Checkmark.webp';
 import CheckmarkWhiteAsset from './assets/CheckmarkWhite.webp';
+import ChevronCircleRight2Asset from './assets/Chevron Circle Right (2).png';
+import ChevronCircleRight22Asset from './assets/Chevron Circle Right (2).webp';
+import ChevronCircleRightWhiteAsset from './assets/Chevron Circle Right-white.png';
+import ChevronCircleRightAsset from './assets/Chevron Circle Right.webp';
+import CirclePlusWhiteAsset from './assets/Circle-plus-white.png';
 import ClockAsset from './assets/Clock.webp';
 import CloseAsset from './assets/Close.webp';
+import CloudUploadThemeColourAsset from './assets/Cloud Upload theme Colour.png';
+import CloudUploadThemeColour2Asset from './assets/Cloud Upload theme Colour.webp';
 import ClubAsset from './assets/Club.webp';
 import CoffeeAsset from './assets/Coffee.webp';
 import CoinsAsset from './assets/Coins.webp';
 import CoinsWhiteAsset from './assets/CoinsWhite.webp';
 import CollabrativeTablesAsset from './assets/Collabrative Tables.webp';
+import ColudUploadWhiteWhiteAsset from './assets/Colud Upload White-white.png';
+import ColudUploadWhiteAsset from './assets/Colud Upload White.webp';
 import CommentAsset from './assets/Comment.webp';
 import ComplimentaryRefreshmentsAsset from './assets/ComplimentaryRefreshments.webp';
 import ContactAsset from './assets/Contact.webp';
+import CreditCardUsageWhiteAsset from './assets/Credit Card Usage-white.png';
+import CreditCardUsageAsset from './assets/Credit Card Usage.webp';
 import CreditCardAsset from './assets/Credit Card.webp';
 import CreditUsageOverviewAsset from './assets/CreditUsageOverview.webp';
+import CrossGreyAsset from './assets/Cross Grey.png';
+import CrossGrey2Asset from './assets/Cross Grey.webp';
 import DailyBookingAsset from './assets/DailyBooking.webp';
 import DashboardAsset from './assets/Dashboard.webp';
 import DataBaseAsset from './assets/Data Base.webp';
@@ -49,22 +73,32 @@ import EntitiesAsset from './assets/Entities.webp';
 import EntityOwnerAsset from './assets/EntityOwner.webp';
 import EntityOwnersAsset from './assets/EntityOwners.webp';
 import EventSpaceAsset from './assets/EventSpace.webp';
+import EyeOutlineThemeColourAsset from './assets/Eye  outline theme colour.png';
+import EyeOutlineThemeColour2Asset from './assets/Eye  outline theme colour.webp';
 import EyeHiddenAsset from './assets/Eye Hidden.webp';
+import EyeOutLIneWhiteAsset from './assets/Eye Out LIne white.png';
+import EyeOutLIneWhite2Asset from './assets/Eye Out LIne white.webp';
 import EyeVisibleAsset from './assets/Eye Visible.webp';
 import FeedbackAsset from './assets/Feedback.webp';
 import FilterAsset from './assets/Filter.webp';
 import FoodPrepAreaAsset from './assets/Food Prep Area.webp';
+import ForwardWhiteAsset from './assets/Forward-white.png';
+import ForwardAsset from './assets/Forward.webp';
 import GameZoneAsset from './assets/Game Zone.webp';
 import GaranteeAsset from './assets/Garantee.webp';
 import GlobeICONAsset from './assets/Globe iCON.webp';
+import GlobeWhiteAsset from './assets/Globe white.png';
+import GlobeWhite2Asset from './assets/Globe white.webp';
 import GrowthJourneyAsset from './assets/GrowthJourney.webp';
+import HiMarkRedAsset from './assets/HiMark - red.png';
+import HiMarkRed2Asset from './assets/HiMark - red.webp';
 import HomeAsset from './assets/Home.webp';
 import HotelAsset from './assets/Hotel.webp';
 import IdeaAsset from './assets/Idea.webp';
 import ImageGalleryAsset from './assets/Image Gallery.webp';
-import InProgressAsset from './assets/InProgress.webp';
 import IncognitoAsset from './assets/Incognito.webp';
 import InformationAsset from './assets/Information.webp';
+import InProgressAsset from './assets/InProgress.webp';
 import InstagramAsset from './assets/Instagram.webp';
 import JoinUsAsset from './assets/JoinUs.webp';
 import LateNightHoursAsset from './assets/LateNightHours.webp';
@@ -73,6 +107,10 @@ import LeftArrowAsset from './assets/Left Arrow.webp';
 import LeftArrowWhiteAsset from './assets/LeftArrowWhite.webp';
 import LeisureIntegrationAsset from './assets/LeisureIntegration.webp';
 import LightningIconAsset from './assets/Lightning Icon.webp';
+import LineThemeColourAsset from './assets/Line Theme Colour.png';
+import LineThemeColour2Asset from './assets/Line Theme Colour.webp';
+import LineWhiteAsset from './assets/Line White.png';
+import LineWhite2Asset from './assets/Line White.webp';
 import LinkedinAsset from './assets/Linkedin.webp';
 import LiveBookingTrackAsset from './assets/LiveBookingTrack.webp';
 import LiveMusicAsset from './assets/LiveMusic.webp';
@@ -114,8 +152,12 @@ import PhoneAsset from './assets/Phone.webp';
 import PhoneNumberAsset from './assets/PhoneNumber.webp';
 import PhoneNumber1Asset from './assets/PhoneNumber1.webp';
 import PlansAsset from './assets/Plans.webp';
+import PlusThemeColourAsset from './assets/Plus Theme Colour.png';
+import PlusThemeColour2Asset from './assets/Plus Theme Colour.webp';
+import PlusWhiteAsset from './assets/Plus White.png';
+import PlusWhite2Asset from './assets/Plus White.webp';
 import PlusAsset from './assets/Plus.webp';
-import PlusWhiteAsset from './assets/PlusWhite.webp';
+import PlusWhite3Asset from './assets/PlusWhite.webp';
 import PoolTableAsset from './assets/PoolTable.webp';
 import PrimeLocationsAsset from './assets/PrimeLocations.webp';
 import PrinterAsset from './assets/Printer.webp';
@@ -146,8 +188,8 @@ import SharedSpaceAsset from './assets/Shared Space.webp';
 import SilentZoneAsset from './assets/Silent Zone.webp';
 import SilentZone2Asset from './assets/SilentZone.webp';
 import SmokingAsset from './assets/Smoking.webp';
-import SpaceTypeAsset from './assets/SpaceType.webp';
 import SpacesAsset from './assets/Spaces.webp';
+import SpaceTypeAsset from './assets/SpaceType.webp';
 import SportsAsset from './assets/Sports.webp';
 import StarFilledAsset from './assets/Star Filled.webp';
 import StarOutlineAsset from './assets/Star Outline.webp';
@@ -172,6 +214,10 @@ import UpcomingBookingAsset from './assets/UpcomingBooking.webp';
 import UploadAsset from './assets/Upload.webp';
 import UserAsset from './assets/User.webp';
 import UserGroupAsset from './assets/UserGroup.webp';
+import UsersThemeColourAsset from './assets/Users Theme Colour.png';
+import UsersThemeColour2Asset from './assets/Users Theme Colour.webp';
+import UsersWhiteAsset from './assets/Users white.png';
+import UsersWhite2Asset from './assets/Users white.webp';
 import UsersAsset from './assets/Users.webp';
 import VisitorsAsset from './assets/Visitors.webp';
 import WalletAsset from './assets/Wallet.webp';
@@ -192,8 +238,16 @@ export const iconMap = {
   "AirConditioning": AirConditioningAsset,
   "Amenities": AmenitiesAsset,
   "ApprovedBooking": ApprovedBookingAsset,
+  "ArrrowLeftWhite": ArrrowLeftWhiteAsset,
+  "ArrrowLeftWhite_2": ArrrowLeftWhite2Asset,
+  "ArrrowRightWhite": ArrrowRightWhiteAsset,
+  "ArrrowRightWhite_2": ArrrowRightWhite2Asset,
   "Audit": AuditAsset,
+  "Backward": BackwardAsset,
+  "Backward_2": Backward2Asset,
   "Bar": BarAsset,
+  "BellGrey": BellGreyAsset,
+  "BellGrey_2": BellGrey2Asset,
   "BookingCancelled": BookingCancelledAsset,
   "BookingCompleted": BookingCompletedAsset,
   "Bookings": BookingsAsset,
@@ -203,21 +257,37 @@ export const iconMap = {
   "Cafe": CafeAsset,
   "CalenderIcon": CalenderIconAsset,
   "Camera": CameraAsset,
+  "Camera_2": Camera2Asset,
   "ChargingPlug": ChargingPlugAsset,
+  "CheckCircleWhite": CheckCircleWhiteAsset,
+  "CheckCircle": CheckCircleAsset,
   "Checkmark": CheckmarkAsset,
   "CheckmarkWhite": CheckmarkWhiteAsset,
+  "ChevronCircleRight2": ChevronCircleRight2Asset,
+  "ChevronCircleRight2_2": ChevronCircleRight22Asset,
+  "ChevronCircleRightWhite": ChevronCircleRightWhiteAsset,
+  "ChevronCircleRight": ChevronCircleRightAsset,
+  "CirclePlusWhite": CirclePlusWhiteAsset,
   "Clock": ClockAsset,
   "Close": CloseAsset,
+  "CloudUploadThemeColour": CloudUploadThemeColourAsset,
+  "CloudUploadThemeColour_2": CloudUploadThemeColour2Asset,
   "Club": ClubAsset,
   "Coffee": CoffeeAsset,
   "Coins": CoinsAsset,
   "CoinsWhite": CoinsWhiteAsset,
   "CollabrativeTables": CollabrativeTablesAsset,
+  "ColudUploadWhiteWhite": ColudUploadWhiteWhiteAsset,
+  "ColudUploadWhite": ColudUploadWhiteAsset,
   "Comment": CommentAsset,
   "ComplimentaryRefreshments": ComplimentaryRefreshmentsAsset,
   "Contact": ContactAsset,
+  "CreditCardUsageWhite": CreditCardUsageWhiteAsset,
+  "CreditCardUsage": CreditCardUsageAsset,
   "CreditCard": CreditCardAsset,
   "CreditUsageOverview": CreditUsageOverviewAsset,
+  "CrossGrey": CrossGreyAsset,
+  "CrossGrey_2": CrossGrey2Asset,
   "DailyBooking": DailyBookingAsset,
   "Dashboard": DashboardAsset,
   "DataBase": DataBaseAsset,
@@ -235,22 +305,32 @@ export const iconMap = {
   "EntityOwner": EntityOwnerAsset,
   "EntityOwners": EntityOwnersAsset,
   "EventSpace": EventSpaceAsset,
+  "EyeOutlineThemeColour": EyeOutlineThemeColourAsset,
+  "EyeOutlineThemeColour_2": EyeOutlineThemeColour2Asset,
   "EyeHidden": EyeHiddenAsset,
+  "EyeOutLIneWhite": EyeOutLIneWhiteAsset,
+  "EyeOutLIneWhite_2": EyeOutLIneWhite2Asset,
   "EyeVisible": EyeVisibleAsset,
   "Feedback": FeedbackAsset,
   "Filter": FilterAsset,
   "FoodPrepArea": FoodPrepAreaAsset,
+  "ForwardWhite": ForwardWhiteAsset,
+  "Forward": ForwardAsset,
   "GameZone": GameZoneAsset,
   "Garantee": GaranteeAsset,
   "GlobeICON": GlobeICONAsset,
+  "GlobeWhite": GlobeWhiteAsset,
+  "GlobeWhite_2": GlobeWhite2Asset,
   "GrowthJourney": GrowthJourneyAsset,
+  "HiMarkRed": HiMarkRedAsset,
+  "HiMarkRed_2": HiMarkRed2Asset,
   "Home": HomeAsset,
   "Hotel": HotelAsset,
   "Idea": IdeaAsset,
   "ImageGallery": ImageGalleryAsset,
-  "InProgress": InProgressAsset,
   "Incognito": IncognitoAsset,
   "Information": InformationAsset,
+  "InProgress": InProgressAsset,
   "Instagram": InstagramAsset,
   "JoinUs": JoinUsAsset,
   "LateNightHours": LateNightHoursAsset,
@@ -259,6 +339,10 @@ export const iconMap = {
   "LeftArrowWhite": LeftArrowWhiteAsset,
   "LeisureIntegration": LeisureIntegrationAsset,
   "LightningIcon": LightningIconAsset,
+  "LineThemeColour": LineThemeColourAsset,
+  "LineThemeColour_2": LineThemeColour2Asset,
+  "LineWhite": LineWhiteAsset,
+  "LineWhite_2": LineWhite2Asset,
   "Linkedin": LinkedinAsset,
   "LiveBookingTrack": LiveBookingTrackAsset,
   "LiveMusic": LiveMusicAsset,
@@ -300,8 +384,12 @@ export const iconMap = {
   "PhoneNumber": PhoneNumberAsset,
   "PhoneNumber1": PhoneNumber1Asset,
   "Plans": PlansAsset,
-  "Plus": PlusAsset,
+  "PlusThemeColour": PlusThemeColourAsset,
+  "PlusThemeColour_2": PlusThemeColour2Asset,
   "PlusWhite": PlusWhiteAsset,
+  "PlusWhite_2": PlusWhite2Asset,
+  "Plus": PlusAsset,
+  "PlusWhite_3": PlusWhite3Asset,
   "PoolTable": PoolTableAsset,
   "PrimeLocations": PrimeLocationsAsset,
   "Printer": PrinterAsset,
@@ -332,8 +420,8 @@ export const iconMap = {
   "SilentZone": SilentZoneAsset,
   "SilentZone_2": SilentZone2Asset,
   "Smoking": SmokingAsset,
-  "SpaceType": SpaceTypeAsset,
   "Spaces": SpacesAsset,
+  "SpaceType": SpaceTypeAsset,
   "Sports": SportsAsset,
   "StarFilled": StarFilledAsset,
   "StarOutline": StarOutlineAsset,
@@ -358,6 +446,10 @@ export const iconMap = {
   "Upload": UploadAsset,
   "User": UserAsset,
   "UserGroup": UserGroupAsset,
+  "UsersThemeColour": UsersThemeColourAsset,
+  "UsersThemeColour_2": UsersThemeColour2Asset,
+  "UsersWhite": UsersWhiteAsset,
+  "UsersWhite_2": UsersWhite2Asset,
   "Users": UsersAsset,
   "Visitors": VisitorsAsset,
   "Wallet": WalletAsset,
