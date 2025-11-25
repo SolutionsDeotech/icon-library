@@ -71,6 +71,7 @@ import GameZoneAsset from './assets/Game Zone.webp';
 import GaranteeAsset from './assets/Garantee.webp';
 import GlobeICONAsset from './assets/Globe iCON.webp';
 import GlobeWhiteAsset from './assets/Globe white.webp';
+import GrowthJourneyWhiteAsset from './assets/Growth-Journey-White .webp';
 import GrowthJourneyAsset from './assets/GrowthJourney.webp';
 import HiMarkRedAsset from './assets/HiMark - red.webp';
 import HomeAsset from './assets/Home.webp';
@@ -119,6 +120,7 @@ import OrganisationStartupAsset from './assets/OrganisationStartup.webp';
 import OrganizationAsset from './assets/Organization.webp';
 import OurVisionWhiteAsset from './assets/Our Vision-white.webp';
 import OurVisionAsset from './assets/Our Vision.webp';
+import OurVisionWhite2Asset from './assets/Our-Vision-White.webp';
 import OurMissionAsset from './assets/OurMission.webp';
 import OurStoryAsset from './assets/OurStory.webp';
 import OutdoorSpaceAsset from './assets/Outdoor Space.webp';
@@ -273,6 +275,7 @@ export const iconMap = {
   "Garantee": GaranteeAsset,
   "GlobeICON": GlobeICONAsset,
   "GlobeWhite": GlobeWhiteAsset,
+  "GrowthJourneyWhite": GrowthJourneyWhiteAsset,
   "GrowthJourney": GrowthJourneyAsset,
   "HiMarkRed": HiMarkRedAsset,
   "Home": HomeAsset,
@@ -321,6 +324,7 @@ export const iconMap = {
   "Organization": OrganizationAsset,
   "OurVisionWhite": OurVisionWhiteAsset,
   "OurVision": OurVisionAsset,
+  "OurVisionWhite_2": OurVisionWhite2Asset,
   "OurMission": OurMissionAsset,
   "OurStory": OurStoryAsset,
   "OutdoorSpace": OutdoorSpaceAsset,
