@@ -118,11 +118,10 @@ import NetworkingOpportunitiesAsset from './assets/NetworkingOpportunities.webp'
 import NotificationAsset from './assets/Notification.webp';
 import OrganisationStartupAsset from './assets/OrganisationStartup.webp';
 import OrganizationAsset from './assets/Organization.webp';
-import OurVisionWhiteAsset from './assets/Our Vision-white.webp';
 import OurVisionAsset from './assets/Our Vision.webp';
-import OurVisionWhite2Asset from './assets/Our-Vision-White.webp';
 import OurMissionAsset from './assets/OurMission.webp';
 import OurStoryAsset from './assets/OurStory.webp';
+import OurVisionWhiteAsset from './assets/OurVisionWhite.webp';
 import OutdoorSpaceAsset from './assets/Outdoor Space.webp';
 import OutdoorSeatingAsset from './assets/OutdoorSeating.webp';
 import ParkingAsset from './assets/Parking.webp';
@@ -322,11 +321,10 @@ export const iconMap = {
   "Notification": NotificationAsset,
   "OrganisationStartup": OrganisationStartupAsset,
   "Organization": OrganizationAsset,
-  "OurVisionWhite": OurVisionWhiteAsset,
   "OurVision": OurVisionAsset,
-  "OurVisionWhite_2": OurVisionWhite2Asset,
   "OurMission": OurMissionAsset,
   "OurStory": OurStoryAsset,
+  "OurVisionWhite": OurVisionWhiteAsset,
   "OutdoorSpace": OutdoorSpaceAsset,
   "OutdoorSeating": OutdoorSeatingAsset,
   "Parking": ParkingAsset,
