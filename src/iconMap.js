@@ -69,6 +69,7 @@ import FoodPrepAreaAsset from './assets/Food Prep Area.webp';
 import ForwardAsset from './assets/Forward.webp';
 import GameZoneAsset from './assets/Game Zone.webp';
 import GaranteeAsset from './assets/Garantee.webp';
+import GiftWhiteAsset from './assets/giftWhite.webp';
 import GlobeICONAsset from './assets/Globe iCON.webp';
 import GlobeWhiteAsset from './assets/Globe white.webp';
 import GrowthJourneyWhiteAsset from './assets/Growth-Journey-White .webp';
@@ -272,6 +273,7 @@ export const iconMap = {
   "Forward": ForwardAsset,
   "GameZone": GameZoneAsset,
   "Garantee": GaranteeAsset,
+  "GiftWhite": GiftWhiteAsset,
   "GlobeICON": GlobeICONAsset,
   "GlobeWhite": GlobeWhiteAsset,
   "GrowthJourneyWhite": GrowthJourneyWhiteAsset,
