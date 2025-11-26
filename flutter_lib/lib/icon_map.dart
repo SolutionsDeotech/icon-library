@@ -72,6 +72,7 @@ class IconMap {
     'Forward': 'assets/icons/Forward.webp',
     'GameZone': 'assets/icons/Game Zone.webp',
     'Garantee': 'assets/icons/Garantee.webp',
+    'GiftWhite': 'assets/icons/giftWhite.webp',
     'GlobeICON': 'assets/icons/Globe iCON.webp',
     'GlobeWhite': 'assets/icons/Globe white.webp',
     'GrowthJourneyWhite': 'assets/icons/Growth-Journey-White .webp',
