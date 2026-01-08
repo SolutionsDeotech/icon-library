@@ -55,6 +55,7 @@ class IconMap {
     'DoubleDownArrow': 'assets/icons/DoubleDownArrow.webp',
     'DownArrow': 'assets/icons/Down Arrow.webp',
     'Download': 'assets/icons/Download.webp',
+    'DownloadWhite': 'assets/icons/DownloadWhite.webp',
     'Drinks': 'assets/icons/Drinks.webp',
     'Edit': 'assets/icons/Edit.webp',
     'EmailWhite': 'assets/icons/Email-white.webp',

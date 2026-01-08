@@ -52,6 +52,7 @@ import DeleteAsset from './assets/Delete.webp';
 import DoubleDownArrowAsset from './assets/DoubleDownArrow.webp';
 import DownArrowAsset from './assets/Down Arrow.webp';
 import DownloadAsset from './assets/Download.webp';
+import DownloadWhiteAsset from './assets/DownloadWhite.webp';
 import DrinksAsset from './assets/Drinks.webp';
 import EditAsset from './assets/Edit.webp';
 import EmailWhiteAsset from './assets/Email-white.webp';
@@ -261,6 +262,7 @@ export const iconMap = {
   "DoubleDownArrow": DoubleDownArrowAsset,
   "DownArrow": DownArrowAsset,
   "Download": DownloadAsset,
+  "DownloadWhite": DownloadWhiteAsset,
   "Drinks": DrinksAsset,
   "Edit": EditAsset,
   "EmailWhite": EmailWhiteAsset,
