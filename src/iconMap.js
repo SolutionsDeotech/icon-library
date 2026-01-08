@@ -26,6 +26,7 @@ import CheckCircleAsset from './assets/Check Circle.webp';
 import CheckmarkAsset from './assets/Checkmark.webp';
 import CheckmarkWhiteAsset from './assets/CheckmarkWhite.webp';
 import ChevronCircleRightAsset from './assets/Chevron Circle Right.webp';
+import CityAsset from './assets/City.webp';
 import ClockAsset from './assets/Clock.webp';
 import CloseAsset from './assets/Close.webp';
 import CloudUploadThemeColourAsset from './assets/Cloud Upload theme Colour.webp';
@@ -38,6 +39,7 @@ import ColudUploadWhiteAsset from './assets/Colud Upload White.webp';
 import CommentAsset from './assets/Comment.webp';
 import ComplimentaryRefreshmentsAsset from './assets/ComplimentaryRefreshments.webp';
 import ContactAsset from './assets/Contact.webp';
+import CountryAsset from './assets/Country.webp';
 import CreditCardUsageAsset from './assets/Credit Card Usage.webp';
 import CreditCardAsset from './assets/Credit Card.webp';
 import CreditUsageOverviewAsset from './assets/CreditUsageOverview.webp';
@@ -131,6 +133,7 @@ import PetFriendlyAsset from './assets/PetFriendly.webp';
 import PhoneAsset from './assets/Phone.webp';
 import PhoneNumberWhiteAsset from './assets/PhoneNumber-white.webp';
 import PhoneNumberAsset from './assets/PhoneNumber.webp';
+import PincodeAsset from './assets/Pincode.webp';
 import PlansAsset from './assets/Plans.webp';
 import PlusThemeColourAsset from './assets/Plus Theme Colour.webp';
 import PlusWhiteAsset from './assets/Plus White.webp';
@@ -167,7 +170,9 @@ import SportsAsset from './assets/Sports.webp';
 import StarFilledAsset from './assets/Star Filled.webp';
 import StarOutlineAsset from './assets/Star Outline.webp';
 import StarredListAsset from './assets/Starred List.webp';
+import StateAsset from './assets/State.webp';
 import StatusDotAsset from './assets/Status Dot.webp';
+import StreetAsset from './assets/Street.webp';
 import SubscriptionAsset from './assets/Subscription.webp';
 import SwimmingPoolAsset from './assets/SwimmingPool.webp';
 import TableCheckAsset from './assets/Table Check.webp';
@@ -230,6 +235,7 @@ export const iconMap = {
   "Checkmark": CheckmarkAsset,
   "CheckmarkWhite": CheckmarkWhiteAsset,
   "ChevronCircleRight": ChevronCircleRightAsset,
+  "City": CityAsset,
   "Clock": ClockAsset,
   "Close": CloseAsset,
   "CloudUploadThemeColour": CloudUploadThemeColourAsset,
@@ -242,6 +248,7 @@ export const iconMap = {
   "Comment": CommentAsset,
   "ComplimentaryRefreshments": ComplimentaryRefreshmentsAsset,
   "Contact": ContactAsset,
+  "Country": CountryAsset,
   "CreditCardUsage": CreditCardUsageAsset,
   "CreditCard": CreditCardAsset,
   "CreditUsageOverview": CreditUsageOverviewAsset,
@@ -335,6 +342,7 @@ export const iconMap = {
   "Phone": PhoneAsset,
   "PhoneNumberWhite": PhoneNumberWhiteAsset,
   "PhoneNumber": PhoneNumberAsset,
+  "Pincode": PincodeAsset,
   "Plans": PlansAsset,
   "PlusThemeColour": PlusThemeColourAsset,
   "PlusWhite": PlusWhiteAsset,
@@ -371,7 +379,9 @@ export const iconMap = {
   "StarFilled": StarFilledAsset,
   "StarOutline": StarOutlineAsset,
   "StarredList": StarredListAsset,
+  "State": StateAsset,
   "StatusDot": StatusDotAsset,
+  "Street": StreetAsset,
   "Subscription": SubscriptionAsset,
   "SwimmingPool": SwimmingPoolAsset,
   "TableCheck": TableCheckAsset,
