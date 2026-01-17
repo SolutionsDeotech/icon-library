@@ -6,8 +6,8 @@ import AddressBookAsset from './assets/Address Book.webp';
 import AirConditioningAsset from './assets/AirConditioning.webp';
 import AmenitiesAsset from './assets/Amenities.webp';
 import ApprovedBookingAsset from './assets/ApprovedBooking.webp';
-import ArrrowLeftWhiteAsset from './assets/Arrrow left - white.webp';
 import ArrrowRightWhiteAsset from './assets/Arrrow Right- white.webp';
+import ArrrowLeftWhiteAsset from './assets/Arrrow left - white.webp';
 import AuditAsset from './assets/Audit.webp';
 import BackwardAsset from './assets/Backward.webp';
 import BarAsset from './assets/Bar.webp';
@@ -72,7 +72,6 @@ import FoodPrepAreaAsset from './assets/Food Prep Area.webp';
 import ForwardAsset from './assets/Forward.webp';
 import GameZoneAsset from './assets/Game Zone.webp';
 import GaranteeAsset from './assets/Garantee.webp';
-import GiftWhiteAsset from './assets/giftWhite.webp';
 import GlobeICONAsset from './assets/Globe iCON.webp';
 import GlobeWhiteAsset from './assets/Globe white.webp';
 import GrowthJourneyWhiteAsset from './assets/Growth-Journey-White .webp';
@@ -82,9 +81,9 @@ import HomeAsset from './assets/Home.webp';
 import HotelAsset from './assets/Hotel.webp';
 import IdeaAsset from './assets/Idea.webp';
 import ImageGalleryAsset from './assets/Image Gallery.webp';
+import InProgressAsset from './assets/InProgress.webp';
 import IncognitoAsset from './assets/Incognito.webp';
 import InformationAsset from './assets/Information.webp';
-import InProgressAsset from './assets/InProgress.webp';
 import InstagramAsset from './assets/Instagram.webp';
 import JoinUsAsset from './assets/JoinUs.webp';
 import LateNightHoursAsset from './assets/LateNightHours.webp';
@@ -165,8 +164,8 @@ import SettingAsset from './assets/Setting.webp';
 import SharedSpaceAsset from './assets/Shared Space.webp';
 import SilentZoneAsset from './assets/SilentZone.webp';
 import SmokingAsset from './assets/Smoking.webp';
-import SpacesAsset from './assets/Spaces.webp';
 import SpaceTypeAsset from './assets/SpaceType.webp';
+import SpacesAsset from './assets/Spaces.webp';
 import SportsAsset from './assets/Sports.webp';
 import StarFilledAsset from './assets/Star Filled.webp';
 import StarOutlineAsset from './assets/Star Outline.webp';
@@ -191,13 +190,13 @@ import TotalVisitorsTodayAsset from './assets/TotalVisitorsToday.webp';
 import UpArrowAsset from './assets/Up Arrow.webp';
 import UpcomingBookingAsset from './assets/UpcomingBooking.webp';
 import UploadAsset from './assets/Upload.webp';
-import UserConGreenAsset from './assets/user-con-green.webp';
 import UserAsset from './assets/User.webp';
 import UserGroupAsset from './assets/UserGroup.webp';
 import UsersThemeColourAsset from './assets/Users Theme Colour.webp';
 import UsersWhiteAsset from './assets/Users white.webp';
 import UsersAsset from './assets/Users.webp';
 import VisitorsAsset from './assets/Visitors.webp';
+import WalletWhiteAsset from './assets/Wallet White.webp';
 import WalletAsset from './assets/Wallet.webp';
 import WarningAsset from './assets/Warning.webp';
 import WhatsappAsset from './assets/Whatsapp.webp';
@@ -206,6 +205,8 @@ import WifiAsset from './assets/Wifi.webp';
 import WorkingProfessionalAsset from './assets/Working Professional.webp';
 import WorkingProfessionalsAsset from './assets/WorkingProfessionals.webp';
 import WorkspaceTransformationAsset from './assets/WorkspaceTransformation.webp';
+import GiftWhiteAsset from './assets/giftWhite.webp';
+import UserConGreenAsset from './assets/user-con-green.webp';
 
 export const iconMap = {
   "247Access": _247AccessAsset,
@@ -216,8 +217,8 @@ export const iconMap = {
   "AirConditioning": AirConditioningAsset,
   "Amenities": AmenitiesAsset,
   "ApprovedBooking": ApprovedBookingAsset,
-  "ArrrowLeftWhite": ArrrowLeftWhiteAsset,
   "ArrrowRightWhite": ArrrowRightWhiteAsset,
+  "ArrrowLeftWhite": ArrrowLeftWhiteAsset,
   "Audit": AuditAsset,
   "Backward": BackwardAsset,
   "Bar": BarAsset,
@@ -282,7 +283,6 @@ export const iconMap = {
   "Forward": ForwardAsset,
   "GameZone": GameZoneAsset,
   "Garantee": GaranteeAsset,
-  "GiftWhite": GiftWhiteAsset,
   "GlobeICON": GlobeICONAsset,
   "GlobeWhite": GlobeWhiteAsset,
   "GrowthJourneyWhite": GrowthJourneyWhiteAsset,
@@ -292,9 +292,9 @@ export const iconMap = {
   "Hotel": HotelAsset,
   "Idea": IdeaAsset,
   "ImageGallery": ImageGalleryAsset,
+  "InProgress": InProgressAsset,
   "Incognito": IncognitoAsset,
   "Information": InformationAsset,
-  "InProgress": InProgressAsset,
   "Instagram": InstagramAsset,
   "JoinUs": JoinUsAsset,
   "LateNightHours": LateNightHoursAsset,
@@ -375,8 +375,8 @@ export const iconMap = {
   "SharedSpace": SharedSpaceAsset,
   "SilentZone": SilentZoneAsset,
   "Smoking": SmokingAsset,
-  "Spaces": SpacesAsset,
   "SpaceType": SpaceTypeAsset,
+  "Spaces": SpacesAsset,
   "Sports": SportsAsset,
   "StarFilled": StarFilledAsset,
   "StarOutline": StarOutlineAsset,
@@ -401,13 +401,13 @@ export const iconMap = {
   "UpArrow": UpArrowAsset,
   "UpcomingBooking": UpcomingBookingAsset,
   "Upload": UploadAsset,
-  "UserConGreen": UserConGreenAsset,
   "User": UserAsset,
   "UserGroup": UserGroupAsset,
   "UsersThemeColour": UsersThemeColourAsset,
   "UsersWhite": UsersWhiteAsset,
   "Users": UsersAsset,
   "Visitors": VisitorsAsset,
+  "WalletWhite": WalletWhiteAsset,
   "Wallet": WalletAsset,
   "Warning": WarningAsset,
   "Whatsapp": WhatsappAsset,
@@ -416,4 +416,6 @@ export const iconMap = {
   "WorkingProfessional": WorkingProfessionalAsset,
   "WorkingProfessionals": WorkingProfessionalsAsset,
   "WorkspaceTransformation": WorkspaceTransformationAsset,
+  "GiftWhite": GiftWhiteAsset,
+  "UserConGreen": UserConGreenAsset,
 };
