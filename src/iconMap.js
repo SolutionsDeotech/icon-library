@@ -161,6 +161,7 @@ import SaveAsset from './assets/Save.webp';
 import SearchAsset from './assets/Search.webp';
 import SecuredPaymentAsset from './assets/SecuredPayment.webp';
 import SendAsset from './assets/Send.webp';
+import SendWhiteAsset from './assets/SendWhite.webp';
 import SettingAsset from './assets/Setting.webp';
 import SharedSpaceAsset from './assets/Shared Space.webp';
 import SilentZoneAsset from './assets/SilentZone.webp';
@@ -199,6 +200,7 @@ import UsersWhiteAsset from './assets/Users white.webp';
 import UsersAsset from './assets/Users.webp';
 import VisitorsAsset from './assets/Visitors.webp';
 import WalletAsset from './assets/Wallet.webp';
+import WalletWhiteAsset from './assets/walletWhite.webp';
 import WarningAsset from './assets/Warning.webp';
 import WhatsappAsset from './assets/Whatsapp.webp';
 import WheelChairAsset from './assets/WheelChair.webp';
@@ -371,6 +373,7 @@ export const iconMap = {
   "Search": SearchAsset,
   "SecuredPayment": SecuredPaymentAsset,
   "Send": SendAsset,
+  "SendWhite": SendWhiteAsset,
   "Setting": SettingAsset,
   "SharedSpace": SharedSpaceAsset,
   "SilentZone": SilentZoneAsset,
@@ -409,6 +412,7 @@ export const iconMap = {
   "Users": UsersAsset,
   "Visitors": VisitorsAsset,
   "Wallet": WalletAsset,
+  "WalletWhite": WalletWhiteAsset,
   "Warning": WarningAsset,
   "Whatsapp": WhatsappAsset,
   "WheelChair": WheelChairAsset,
