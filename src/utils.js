@@ -1,5 +1,4 @@
 import { iconMap } from './iconMap';
-console.log('iconMap loaded in utils.js:', iconMap);
 
 const iconCache = {}; // Cache for storing resolved icon URLs
 
