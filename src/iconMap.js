@@ -84,6 +84,7 @@ import ImageGalleryAsset from './assets/Image Gallery.webp';
 import InProgressAsset from './assets/InProgress.webp';
 import IncognitoAsset from './assets/Incognito.webp';
 import InformationAsset from './assets/Information.webp';
+import InformationwhiteAsset from './assets/Informationwhite.webp';
 import InstagramAsset from './assets/Instagram.webp';
 import JoinUsAsset from './assets/JoinUs.webp';
 import LateNightHoursAsset from './assets/LateNightHours.webp';
@@ -173,7 +174,11 @@ import StarOutlineAsset from './assets/Star Outline.webp';
 import StarredListAsset from './assets/Starred List.webp';
 import StateAsset from './assets/State.webp';
 import StatusDotAsset from './assets/Status Dot.webp';
+import StayAsset from './assets/Stay.webp';
+import StayWhiteAsset from './assets/StayWhite.webp';
 import StreetAsset from './assets/Street.webp';
+import StudioAsset from './assets/Studio.webp';
+import StudiowhiteAsset from './assets/Studiowhite.webp';
 import SubscriptionAsset from './assets/Subscription.webp';
 import SwimmingPoolAsset from './assets/SwimmingPool.webp';
 import TableCheckAsset from './assets/Table Check.webp';
@@ -197,9 +202,7 @@ import UsersThemeColourAsset from './assets/Users Theme Colour.webp';
 import UsersWhiteAsset from './assets/Users white.webp';
 import UsersAsset from './assets/Users.webp';
 import VisitorsAsset from './assets/Visitors.webp';
-import WalletWhiteAsset from './assets/Wallet White.webp';
 import WalletAsset from './assets/Wallet.webp';
-import WalletWhiteAsset from './assets/walletWhite.webp';
 import WarningAsset from './assets/Warning.webp';
 import WhatsappAsset from './assets/Whatsapp.webp';
 import WheelChairAsset from './assets/WheelChair.webp';
@@ -209,6 +212,7 @@ import WorkingProfessionalsAsset from './assets/WorkingProfessionals.webp';
 import WorkspaceTransformationAsset from './assets/WorkspaceTransformation.webp';
 import GiftWhiteAsset from './assets/giftWhite.webp';
 import UserConGreenAsset from './assets/user-con-green.webp';
+import WalletWhiteAsset from './assets/walletWhite.webp';
 
 export const iconMap = {
   "247Access": _247AccessAsset,
@@ -297,6 +301,7 @@ export const iconMap = {
   "InProgress": InProgressAsset,
   "Incognito": IncognitoAsset,
   "Information": InformationAsset,
+  "Informationwhite": InformationwhiteAsset,
   "Instagram": InstagramAsset,
   "JoinUs": JoinUsAsset,
   "LateNightHours": LateNightHoursAsset,
@@ -386,7 +391,11 @@ export const iconMap = {
   "StarredList": StarredListAsset,
   "State": StateAsset,
   "StatusDot": StatusDotAsset,
+  "Stay": StayAsset,
+  "StayWhite": StayWhiteAsset,
   "Street": StreetAsset,
+  "Studio": StudioAsset,
+  "Studiowhite": StudiowhiteAsset,
   "Subscription": SubscriptionAsset,
   "SwimmingPool": SwimmingPoolAsset,
   "TableCheck": TableCheckAsset,
@@ -410,9 +419,7 @@ export const iconMap = {
   "UsersWhite": UsersWhiteAsset,
   "Users": UsersAsset,
   "Visitors": VisitorsAsset,
-  "WalletWhite": WalletWhiteAsset,
   "Wallet": WalletAsset,
-  "WalletWhite": WalletWhiteAsset,
   "Warning": WarningAsset,
   "Whatsapp": WhatsappAsset,
   "WheelChair": WheelChairAsset,
@@ -422,4 +429,5 @@ export const iconMap = {
   "WorkspaceTransformation": WorkspaceTransformationAsset,
   "GiftWhite": GiftWhiteAsset,
   "UserConGreen": UserConGreenAsset,
+  "WalletWhite": WalletWhiteAsset,
 };
