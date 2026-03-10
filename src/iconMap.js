@@ -176,7 +176,11 @@ import StarOutlineAsset from './assets/Star Outline.webp';
 import StarredListAsset from './assets/Starred List.webp';
 import StateAsset from './assets/State.webp';
 import StatusDotAsset from './assets/Status Dot.webp';
+import StayAsset from './assets/Stay.webp';
+import StayWhiteAsset from './assets/StayWhite.webp';
 import StreetAsset from './assets/Street.webp';
+import StudioAsset from './assets/Studio.webp';
+import StudiowhiteAsset from './assets/Studiowhite.webp';
 import SubscriptionAsset from './assets/Subscription.webp';
 import SwimmingPoolAsset from './assets/SwimmingPool.webp';
 import TableCheckAsset from './assets/Table Check.webp';
@@ -201,7 +205,6 @@ import UsersThemeColourAsset from './assets/Users Theme Colour.webp';
 import UsersWhiteAsset from './assets/Users white.webp';
 import UsersAsset from './assets/Users.webp';
 import VisitorsAsset from './assets/Visitors.webp';
-import WalletWhiteAsset from './assets/Wallet White.webp';
 import WalletAsset from './assets/Wallet.webp';
 import WalletWhite2Asset from './assets/walletWhite.webp';
 import WarningAsset from './assets/Warning.webp';
@@ -391,7 +394,11 @@ export const iconMap = {
   "StarredList": StarredListAsset,
   "State": StateAsset,
   "StatusDot": StatusDotAsset,
+  "Stay": StayAsset,
+  "StayWhite": StayWhiteAsset,
   "Street": StreetAsset,
+  "Studio": StudioAsset,
+  "Studiowhite": StudiowhiteAsset,
   "Subscription": SubscriptionAsset,
   "SwimmingPool": SwimmingPoolAsset,
   "TableCheck": TableCheckAsset,
@@ -416,7 +423,6 @@ export const iconMap = {
   "UsersWhite": UsersWhiteAsset,
   "Users": UsersAsset,
   "Visitors": VisitorsAsset,
-  "WalletWhite": WalletWhiteAsset,
   "Wallet": WalletAsset,
   "WalletWhite_2": WalletWhite2Asset,
   "Warning": WarningAsset,
