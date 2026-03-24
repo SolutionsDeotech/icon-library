@@ -85,6 +85,7 @@ import IdeaAsset from './assets/Idea.webp';
 import ImageGalleryAsset from './assets/Image Gallery.webp';
 import IncognitoAsset from './assets/Incognito.webp';
 import InformationAsset from './assets/Information.webp';
+import InformationwhiteAsset from './assets/Informationwhite.webp';
 import InProgressAsset from './assets/InProgress.webp';
 import InstagramAsset from './assets/Instagram.webp';
 import JoinUsAsset from './assets/JoinUs.webp';
@@ -206,7 +207,7 @@ import UsersWhiteAsset from './assets/Users white.webp';
 import UsersAsset from './assets/Users.webp';
 import VisitorsAsset from './assets/Visitors.webp';
 import WalletAsset from './assets/Wallet.webp';
-import WalletWhite2Asset from './assets/walletWhite.webp';
+import WalletWhiteAsset from './assets/walletWhite.webp';
 import WarningAsset from './assets/Warning.webp';
 import WhatsappAsset from './assets/Whatsapp.webp';
 import WheelChairAsset from './assets/WheelChair.webp';
@@ -303,6 +304,7 @@ export const iconMap = {
   "ImageGallery": ImageGalleryAsset,
   "Incognito": IncognitoAsset,
   "Information": InformationAsset,
+  "Informationwhite": InformationwhiteAsset,
   "InProgress": InProgressAsset,
   "Instagram": InstagramAsset,
   "JoinUs": JoinUsAsset,
@@ -424,7 +426,7 @@ export const iconMap = {
   "Users": UsersAsset,
   "Visitors": VisitorsAsset,
   "Wallet": WalletAsset,
-  "WalletWhite_2": WalletWhite2Asset,
+  "WalletWhite": WalletWhiteAsset,
   "Warning": WarningAsset,
   "Whatsapp": WhatsappAsset,
   "WheelChair": WheelChairAsset,
