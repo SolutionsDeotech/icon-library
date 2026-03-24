@@ -186,6 +186,7 @@ class IconMap {
     'Studio': 'assets/icons/Studio.webp',
     'Studiowhite': 'assets/icons/Studiowhite.webp',
     'Subscription': 'assets/icons/Subscription.webp',
+    'SupportWhite': 'assets/icons/SupportWhite.webp',
     'SwimmingPool': 'assets/icons/SwimmingPool.webp',
     'TableCheck': 'assets/icons/Table Check.webp',
     'Tables': 'assets/icons/Tables.webp',

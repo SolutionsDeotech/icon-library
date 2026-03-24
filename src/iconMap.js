@@ -183,6 +183,7 @@ import StreetAsset from './assets/Street.webp';
 import StudioAsset from './assets/Studio.webp';
 import StudiowhiteAsset from './assets/Studiowhite.webp';
 import SubscriptionAsset from './assets/Subscription.webp';
+import SupportWhiteAsset from './assets/SupportWhite.webp';
 import SwimmingPoolAsset from './assets/SwimmingPool.webp';
 import TableCheckAsset from './assets/Table Check.webp';
 import TablesAsset from './assets/Tables.webp';
@@ -402,6 +403,7 @@ export const iconMap = {
   "Studio": StudioAsset,
   "Studiowhite": StudiowhiteAsset,
   "Subscription": SubscriptionAsset,
+  "SupportWhite": SupportWhiteAsset,
   "SwimmingPool": SwimmingPoolAsset,
   "TableCheck": TableCheckAsset,
   "Tables": TablesAsset,
