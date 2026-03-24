@@ -85,6 +85,7 @@ import IdeaAsset from './assets/Idea.webp';
 import ImageGalleryAsset from './assets/Image Gallery.webp';
 import IncognitoAsset from './assets/Incognito.webp';
 import InformationAsset from './assets/Information.webp';
+import InformationwhiteAsset from './assets/Informationwhite.webp';
 import InProgressAsset from './assets/InProgress.webp';
 import InstagramAsset from './assets/Instagram.webp';
 import JoinUsAsset from './assets/JoinUs.webp';
@@ -182,6 +183,7 @@ import StreetAsset from './assets/Street.webp';
 import StudioAsset from './assets/Studio.webp';
 import StudiowhiteAsset from './assets/Studiowhite.webp';
 import SubscriptionAsset from './assets/Subscription.webp';
+import SupportWhiteAsset from './assets/SupportWhite.webp';
 import SwimmingPoolAsset from './assets/SwimmingPool.webp';
 import TableCheckAsset from './assets/Table Check.webp';
 import TablesAsset from './assets/Tables.webp';
@@ -206,7 +208,7 @@ import UsersWhiteAsset from './assets/Users white.webp';
 import UsersAsset from './assets/Users.webp';
 import VisitorsAsset from './assets/Visitors.webp';
 import WalletAsset from './assets/Wallet.webp';
-import WalletWhite2Asset from './assets/walletWhite.webp';
+import WalletWhiteAsset from './assets/walletWhite.webp';
 import WarningAsset from './assets/Warning.webp';
 import WhatsappAsset from './assets/Whatsapp.webp';
 import WheelChairAsset from './assets/WheelChair.webp';
@@ -303,6 +305,7 @@ export const iconMap = {
   "ImageGallery": ImageGalleryAsset,
   "Incognito": IncognitoAsset,
   "Information": InformationAsset,
+  "Informationwhite": InformationwhiteAsset,
   "InProgress": InProgressAsset,
   "Instagram": InstagramAsset,
   "JoinUs": JoinUsAsset,
@@ -400,6 +403,7 @@ export const iconMap = {
   "Studio": StudioAsset,
   "Studiowhite": StudiowhiteAsset,
   "Subscription": SubscriptionAsset,
+  "SupportWhite": SupportWhiteAsset,
   "SwimmingPool": SwimmingPoolAsset,
   "TableCheck": TableCheckAsset,
   "Tables": TablesAsset,
@@ -424,7 +428,7 @@ export const iconMap = {
   "Users": UsersAsset,
   "Visitors": VisitorsAsset,
   "Wallet": WalletAsset,
-  "WalletWhite_2": WalletWhite2Asset,
+  "WalletWhite": WalletWhiteAsset,
   "Warning": WarningAsset,
   "Whatsapp": WhatsappAsset,
   "WheelChair": WheelChairAsset,
