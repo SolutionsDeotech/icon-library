@@ -105,9 +105,42 @@ async function generateIconMaps() {
           res();
         });
       }));
+      
+      // Generate individual JS files for granular chunking (Tree-shaking support)
+      const iconsDir = path.join(__dirname, 'src', 'icons');
+      if (!fs.existsSync(iconsDir)){
+        fs.mkdirSync(iconsDir, { recursive: true });
+      }
+
+      files.forEach(file => {
+        const fileNameWithoutExt = file.split('.').slice(0, -1).join('.');
+        let baseIconName = fileNameWithoutExt
+          .replace(/[^a-zA-Z0-9]+(.)?/g, (match, chr) => chr ? chr.toUpperCase() : '')
+          .replace(/^./, (match) => match.toUpperCase());
+        
+        let iconName = baseIconName;
+        // Search generatedIconNames to find the matching generated name for this file
+        // (the while loop handled collisions, but we can reuse the names list)
+      });
+      
+      // Better way to do the individual files: iterate over generated names and file mappings
+      // Since we already ran the loop, let's reconstruct it using an array
+      const namesList = Array.from(generatedIconNames);
+      
+      files.forEach((file, index) => {
+         const iconName = namesList[index];
+         const iconFilePath = path.join(iconsDir, `${iconName}.js`);
+         const content = `import asset from '../assets/${file}';\nexport default asset;\n`;
+         writePromises.push(fs.promises.writeFile(iconFilePath, content));
+      });
+
+      // Write a lightweight iconNames.js to list all available icons
+      const namesJsPath = path.join(__dirname, 'src', 'iconNames.js');
+      const namesContent = `export const iconNames = ${JSON.stringify(namesList, null, 2)};\n`;
+      writePromises.push(fs.promises.writeFile(namesJsPath, namesContent));
 
       Promise.all(writePromises).then(() => {
-        console.log('All icon map files generated successfully!');
+        console.log('All icon map and granular files generated successfully!');
         resolve();
       }).catch(reject);
     });
