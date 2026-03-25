@@ -54,26 +54,29 @@ You can use `iconMap` and `getIconUrl` directly in any JavaScript environment.
 ```javascript
 import { iconMap, getIconUrl } from '@deotech-solutions/icon-library';
 
-// To get the URL for a specific icon
+// To get the URL for a specific icon (Legacy)
 const iconName = 'Icon247Acess'; // Use the exact PascalCase name
 const iconRelativePath = getIconUrl(iconName);
+```
 
-if (iconRelativePath) {
-  console.log(`Relative path for ${iconName}: ${iconRelativePath}`);
-  // In a web environment, you would typically combine this with your base URL
-  // or handle asset loading based on your build setup.
-  // Example for a web project (assuming assets are served from /dist/assets):
-  const fullIconUrl = `/dist/assets/${iconRelativePath}`;
-  console.log(`Full URL for ${iconName}: ${fullIconUrl}`);
+### Tree-Shaking (Recommended for Web)
 
-  // You can also iterate through all available icons
-  console.log('All available icons:');
-  for (const name in iconMap) {
-    console.log(`- ${name}: ${iconMap[name]}`);
-  }
-} else {
-  console.log(`Icon "${iconName}" not found.`);
-}
+To prevent bundling the entire icon library monolith (1.5MB+), use the granular ES modules generated in the `src/icons/` directory.
+
+```javascript
+// ✅ GOOD: Only the needed asset is pulled into the bundle
+import MyIconAsset from '@deotech-solutions/icon-library/src/icons/MyIcon.js';
+
+// Or via Dynamic Imports (Excellent for lazy loading specific icons given a dynamic name)
+const iconName = 'MyIcon';
+const module = await import(\`@deotech-solutions/icon-library/src/icons/\${iconName}.js\`);
+const imageUrl = module.default;
+
+// ❌ AVOID: This forces the bundler to include every single icon
+import { iconMap } from '@deotech-solutions/icon-library';
+
+// If you need to list all available icons without importing the heavy image assets:
+import { iconNames } from '@deotech-solutions/icon-library/src/iconNames.js';
 ```
 
 This library provides the mapping and utility to get the relative path to the icon asset. How you load and display these assets (e.g., using `<img>` tags, CSS `background-image`, or framework-specific components) is up to your application's architecture.
@@ -198,16 +201,12 @@ We follow Semantic Versioning (SemVer) for releases. All changes are documented 
 Publishing new versions requires maintainer access to both npm and pub.dev.
 
 1.  **Update Version**: Increment the version number according to SemVer guidelines. Update the `version` field in `package.json` (for npm) and `pubspec.yaml` (for pub.dev). Ensure these versions are synchronized.
-2.  **Build & Generate Icons**: Ensure the library is built and icon maps are generated for both platforms.
-    ```bash
-    npm run build
-    npm run generate:icons # Ensure latest assets are copied and maps generated
-    ```
-3.  **Publish to npm**:
+2.  **Publish to npm**:
     ```bash
     npm publish --access public
     ```
-4.  **Publish to pub.dev**:
+    *Note: The `prepublishOnly` script will automatically run `npm run generate:icons` and `npm run build` for you.*
+3.  **Publish to pub.dev**:
     ```bash
     cd flutter_lib
     flutter pub publish
